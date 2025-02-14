@@ -1,0 +1,21 @@
+{
+  "name": "token-machine",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "sh test.sh & sh test.sh & sh test.sh &"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.15.4",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "typescript": "^5.7.3"
+  }
+}
